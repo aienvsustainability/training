@@ -11,30 +11,33 @@ export const metadata: Metadata = {
         default: "Training & Courses - CAIES Fondation",
         template: "CAIES Fondation - %s",
     },
-    referrer: 'origin-when-cross-origin',
-    authors: [{ name: 'Sushant Singh' }, { name: 'Eshan Singh' }],
-    description: "Modular, research-aligned courses in AI, Cybersecurity, Data Science, Python, and Sustainability, preparing learners for advanced study and professional practice.",
+    referrer: "origin-when-cross-origin",
+    authors: [{ name: "Sushant Singh" }, { name: "Eshan Singh" }],
+    description:
+        "Modular, research-aligned courses in AI, Cybersecurity, Data Science, Python, and Sustainability, preparing learners for advanced study and professional practice.",
     twitter: {
         card: "summary_large_image",
         site: "@CaiesF",
         title: "CAIES Fondation",
-        description: "Modular, research-aligned courses in AI, Cybersecurity, Data Science, Python, and Sustainability, preparing learners for advanced study and professional practice.",
+        description:
+            "Modular, research-aligned courses in AI, Cybersecurity, Data Science, Python, and Sustainability, preparing learners for advanced study and professional practice.",
     },
-    creator: 'Eshan Singh',
+    creator: "Eshan Singh",
     openGraph: {
         title: "Training & Courses - CAIES Fondation",
-        description: "Modular, research-aligned courses in AI, Cybersecurity, Data Science, Python, and Sustainability, preparing learners for advanced study and professional practice.",
-        url: 'https://training.caienvsus.org',
-        siteName: 'CAIES Fondation',
+        description:
+            "Modular, research-aligned courses in AI, Cybersecurity, Data Science, Python, and Sustainability, preparing learners for advanced study and professional practice.",
+        url: "https://training.caienvsus.org",
+        siteName: "CAIES Fondation",
         images: [
             {
-                url: '/og-image.webp',
+                url: "/og-image.webp",
                 width: 1200,
                 height: 630,
-            }
+            },
         ],
-        locale: 'en_US',
-        type: 'website',
+        locale: "en_US",
+        type: "website",
     },
     robots: {
         index: true,
@@ -44,18 +47,18 @@ export const metadata: Metadata = {
             index: true,
             follow: true,
             noimageindex: true,
-            'max-video-preview': -1,
-            'max-image-preview': 'large',
-            'max-snippet': -1,
-        }
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
     },
     icons: {
-        icon: '/favicon.png',
-        shortcut: '/favicon.png',
-        apple: '/favicon.png',
+        icon: "/favicon.png",
+        shortcut: "/favicon.png",
+        apple: "/favicon.png",
     },
-    category: 'Non-Profit Organization',
-};
+    category: "Non-Profit Organization",
+}
 
 export default function RootLayout({
     children,
@@ -65,10 +68,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${satoshi.variable} ${geistMono.variable} ${robson.variable} scroll-smooth max-w-screen antialiased`}>
+                className={`${satoshi.variable} ${geistMono.variable} ${robson.variable} max-w-screen scroll-smooth antialiased`}>
                 <Header />
                 <GsapProvider>
-                    <div className="relative h-full w-full bg-neutral-900 overflow-hidden scroll-smooth">
+                    <div className="relative h-full w-full overflow-hidden scroll-smooth bg-neutral-900">
                         {children}
                         <Footer />
                     </div>
