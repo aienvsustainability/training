@@ -54,7 +54,7 @@ export default function Header() {
                             </SheetTrigger>
                             <SheetContent
                                 side="top"
-                                className="z-[20] mt-16 h-120 w-full bg-black/90 backdrop-blur-xs">
+                                className="z-[999] mt-16 h-120 w-full bg-black/90 backdrop-blur-xs">
                                 <SheetHeader className="sr-only" />
                                 <div className="mt-2 flex w-full flex-col space-y-6 px-8">
                                     {links.map(({ href, label }) => (
