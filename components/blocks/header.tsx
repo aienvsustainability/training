@@ -34,15 +34,17 @@ export default function Header() {
                     scrolled ? "bg-neutral-950" : "bg-transparent"
                 }`}>
                 <div className="flex w-full max-w-6xl items-center justify-between">
-                    <Image
-                        src="/graphics/logo.webp"
-                        alt="CAIES Foundation Logo"
-                        sizes="100vw"
-                        priority
-                        width={0}
-                        height={0}
-                        className="h-12 w-auto object-contain md:h-10"
-                    />
+                    <Link href="/">
+                        <Image
+                            src="/graphics/logo.webp"
+                            alt="CAIES Foundation Logo"
+                            sizes="100vw"
+                            priority
+                            width={0}
+                            height={0}
+                            className="h-12 w-auto object-contain md:h-10"
+                        />
+                    </Link>
 
                     {/* Mobile menu */}
                     <div className="md:hidden">

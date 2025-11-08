@@ -84,7 +84,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
                 <div className="flex items-center justify-center">
                     <Link
                         href={enrollLink}
-                        className="group-hover:scale-105 transition-all duration-300 ease-linear rounded-full bg-white px-4 py-2 text-sm font-semibold text-neutral-900">
+                        className="group-hover:scale-105 transition-all duration-300 ease-linear rounded-full bg-neutral-400 px-4 py-2 text-sm font-semibold text-neutral-900">
                         Enroll Now
                     </Link>
                 </div>

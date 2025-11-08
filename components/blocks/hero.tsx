@@ -28,7 +28,7 @@ const HeroSection = () => {
                     Explore Courses
                 </Link>
                 <Link
-                    href="/"
+                    href="https://caienvsus.org/contact"
                     className="flex h-12 w-full items-center justify-center backdrop-blur-xs bg-white/20 px-4 text-sm font-medium tracking-wide text-white sm:px-6 sm:text-base">
                     Invite Us
                 </Link>
