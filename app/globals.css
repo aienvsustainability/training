@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+    --spin-speed: 6s;
+}
+
+@theme inline {
+    --leading-primary: 1.2em;
+    --color-primary: #FE5F00;
+    --font-mono: var(--geist-mono), monospace;
+    --animate-spin: spin var(--spin-speed) linear infinite;
+    --animate-float: float 5s ease-in-out infinite;
+    --text-shadow-custom: 2px 4px 0px;
+    --shadow-custom: 2px 4px 0px;
+    --font-robson: var(--font-robson), sans-serif;
+    --color-yellow-450: #FBD95D;
+}
+
+* {
+    font-family: var(--custom-font), sans-serif;
+}
+
+.font-mono {
+    font-family: var(--geist-mono), monospace !important;
+}
+
+.font-robson {
+    font-family: var(--font-robson), sans-serif !important;
+}
+
+.word {
+    opacity: 0.3;
+    display: inline-block;
+    transition: opacity 0.3s ease;
+}
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
