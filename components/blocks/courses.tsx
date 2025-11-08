@@ -33,7 +33,7 @@ const CourseSection = () => {
                     projects={2}
                     imageSrc="/graphics/cog.png"
                     imageAlt="Artificial Intelligence"
-                    enrollLink="/courses/ai"
+                    enrollLink="#"
                     startDate="Coming Soon"
                     tickerText="New"
                     bgColor="bg-yellow-450"
@@ -48,7 +48,7 @@ const CourseSection = () => {
                     projects={2}
                     imageSrc="/graphics/pyramid.png"
                     imageAlt="Data Science"
-                    enrollLink="/courses/data-science"
+                    enrollLink="#"
                     startDate="coming soon"
                     tickerText="Recommended"
                     bgColor="bg-blue-400"
@@ -63,7 +63,7 @@ const CourseSection = () => {
                     projects={2}
                     imageSrc="/graphics/spring.png"
                     imageAlt="Cybersecurity"
-                    enrollLink="/courses/cybersecurity"
+                    enrollLink="#"
                     startDate="coming soon"
                     tickerText="New"
                     bgColor="bg-green-400"
@@ -78,7 +78,7 @@ const CourseSection = () => {
                     projects={2}
                     imageSrc="/graphics/star.png"
                     imageAlt="Python Engineering"
-                    enrollLink="/courses/python-engineering"
+                    enrollLink="#"
                     startDate="coming soon"
                     tickerText="New"
                     bgColor="bg-rose-400"
@@ -93,7 +93,7 @@ const CourseSection = () => {
                     projects={2}
                     imageSrc="/cylinder.png"
                     imageAlt="Environmental Data Science"
-                    enrollLink="/courses/environmental-data-science"
+                    enrollLink="#"
                     startDate="coming soon"
                     tickerText="New"
                     bgColor="bg-pink-400"
